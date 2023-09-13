@@ -1,0 +1,136 @@
+.wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.side-bar {
+    width: 200px;
+    min-height: 100vh;
+    border: 1px solid grey;
+    left: 0;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(243, 154, 154, 0.3);
+}
+.text h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: grey;
+}
+.text button {
+    color: red;
+    background-color: rgb(208, 66, 66, 0.4);
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.content {
+    height: 100vh;
+    width: 85%;
+}
+.content iframe {
+    width: 95%;
+    height: 40vh;
+    border: 1px, solid, black;
+    margin: 20px;
+    border-radius: 20px;
+}
+.info {
+    height: 50vh;
+    width: 98%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.synopsis {
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+}
+.cast {
+    width: 100%;
+    padding: 10px;
+    margin-right: 20px;
+    height: auto;
+}
+.cast-item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.cast-item p {
+    padding-left: 10px;
+    color: red;
+}
+.awards {
+    border: 1px solid grey;
+    width: 400px;
+    border-radius: 10px;
+}
+.awards button {
+    background-color: red;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px;
+    color: white;
+    margin-right: 20px;
+}
+.image{
+    height: 300px;
+}
+
+@media screen and (max-width: 600px) {
+    .synopsis{
+        background-color: red;
+    }
+
+.side-bar{
+    display: block;
+}
+}
